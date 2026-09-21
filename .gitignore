@@ -1,0 +1,46 @@
+# ---------- Vivado generated files ----------
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+.Xil/
+*.jou
+*.log
+*.str
+*.backup.jou
+*.backup.log
+webtalk*
+hs_err_pid*
+*.dcp
+*.bit
+*.ltx
+
+# ---------- Vitis Classic workspace / build output ----------
+.metadata/
+.sdk/
+.analytics
+RemoteSystemsTempFiles/
+IDE.log
+_ide/
+Debug/
+Release/
+export/
+logs/
+hw/
+resources/
+ps7_cortexa9_0/
+zynq_fsbl/
+*.elf
+*.o
+*.d
+*.map
+*.lock
+
+# ---------- OS / editor junk ----------
+desktop.ini
+Thumbs.db
+.DS_Store
+*.swp
+*~
