@@ -14,24 +14,15 @@
 webtalk*
 hs_err_pid*
 *.dcp
-*.bit
-*.ltx
 
-# ---------- Vitis Classic workspace / build output ----------
-.metadata/
-.sdk/
-.analytics
-RemoteSystemsTempFiles/
-IDE.log
-_ide/
+# ---------- Vitis Classic build output only ----------
+# (BSP, FSBL, hw/, export/, resources/, and _ide/ are intentionally
+#  NOT ignored below -- Vitis needs them to recognize and open the project)
 Debug/
 Release/
-export/
-logs/
-hw/
-resources/
-ps7_cortexa9_0/
-zynq_fsbl/
+.metadata/
+.analytics
+RemoteSystemsTempFiles/
 *.elf
 *.o
 *.d
