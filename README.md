@@ -1,5 +1,8 @@
 # Overview
-
+This project enables AXI GPIO to switches, leds, and an rgb led.
+The hardware is exported from vivado and the software is programmed in Vitis.
+With the GPIO accessible from the PS side we can control it with software, the 
+program reads the switch states and displays diffrent led patterns and diffrent colors.
 
 # Components Used:
 
@@ -7,8 +10,6 @@
 
 # Known Issues or Limitations:
 
-
-# Author Contribution:
 
 # References
 
